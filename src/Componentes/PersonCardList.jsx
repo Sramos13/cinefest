@@ -10,6 +10,7 @@ function PersonCardList({ persons, onSelect, onDelete }) {
 
   return (
     <div>
+      <h1>CINEFEST MANAGER (NOMINA)</h1>
       <h2>Allowed</h2> {}
       <div className="card-container">
         {allowed.map(person => (
@@ -17,7 +18,7 @@ function PersonCardList({ persons, onSelect, onDelete }) {
             key={person.id}
             {...person}
             onSelect={onSelect}
-            onDelete={onDelete}
+            //onDelete={onDelete}
           />
         ))}
       </div>
@@ -29,7 +30,7 @@ function PersonCardList({ persons, onSelect, onDelete }) {
             key={person.id}
             {...person}
             onSelect={onSelect}
-            onDelete={onDelete}
+            //onDelete={onDelete}
           />
         ))}
       </div>

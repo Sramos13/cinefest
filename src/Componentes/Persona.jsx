@@ -11,12 +11,7 @@ function PersonCard({ id, name, city, country, address, age, avatarURL, onSelect
       <p>Edad: {age}</p>
 
       <button onClick={() => onSelect(id)}>Select</button>
-      <button
-        onClick={() => onDelete(id)}
-        style={{ backgroundColor: 'red', color: 'white', marginTop: '5px' }}
-      >
-        Eliminar
-      </button>
+      
     </div>
   );
 }

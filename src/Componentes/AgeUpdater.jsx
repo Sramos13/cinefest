@@ -6,7 +6,7 @@ function AgeUpdater({ person, onIncreaseAge }) {
 
   return (
     <div className="age-updater">
-      <h2>Selected Person</h2>
+      <h2>Selecciona la persona</h2>
 
       <div className="person-card">
         <img src={person.avatarURL} alt={person.name} className="avatar" />
@@ -14,7 +14,7 @@ function AgeUpdater({ person, onIncreaseAge }) {
         <p>{person.city}, {person.country}</p>
         <p>{person.address}</p>
         <p>Edad: {person.age}</p>
-        <button onClick={onIncreaseAge}>Increase Age</button>
+        <button onClick={onIncreaseAge}>Aumentar edad</button>
       </div>
     </div>
   );

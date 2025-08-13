@@ -17,7 +17,7 @@ function CrearPersona({ onAgregar }) {
     e.preventDefault();
 
     if (!name || !city || !country || !address || !avatarURL || !age) {
-      alert('Ningun campo puede estar vacio');
+      alert('ERROR, Ningun campo puede estar vacio');
       return;
     }
 

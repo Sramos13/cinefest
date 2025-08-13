@@ -6,7 +6,6 @@ import CrearPersona from './Componentes/CrearPersona';
 import PersonCardList from './Componentes/PersonCardList';
 import AgeUpdater from './Componentes/AgeUpdater';
 
-
 import { personListData } from './personListData';
 
 

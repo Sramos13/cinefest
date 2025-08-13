@@ -1,0 +1,14 @@
+{
+    "usuarios":[
+        {
+        "id":1,
+        
+        "name": "Danny Guaman",
+        "city": "Quito",
+        "country": "Ecuador",
+        "address": "Ladrón de Guevara E11-253",
+        "age": 38
+        }
+
+    ]
+}

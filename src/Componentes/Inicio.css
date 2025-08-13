@@ -1,0 +1,22 @@
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.inicio h1 {
+  margin-bottom: 30px;
+}
+
+.botones {
+  display: flex;
+  gap: 20px;
+}
+
+.botones button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

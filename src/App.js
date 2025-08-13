@@ -28,8 +28,8 @@ function App() {
   const handleIncreaseAge = () => {
     if (!selectedPerson) return;
 
-    const updatedPersons = persons.map(p =>
-      p.id === selectedPerson.id ? { ...p, age: p.age + 1 } : p
+    const updatedPersons = persons.map(person =>
+      person.id === selectedPerson.id ? { ...person, age: person.age + 1 } : person
     );
 
     setPersons(updatedPersons);

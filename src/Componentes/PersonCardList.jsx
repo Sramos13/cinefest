@@ -34,9 +34,9 @@ function PersonCardList({ persons, onSelect, onDelete }) {
         ))}
       </div>
 
-      {}
+    
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button onClick={() => navigate('/')}>Volver al Inicio</button>
+        <button onClick={() => navigate('/')}>Regresar al Inicio</button>
       </div>
     </div>
   );
